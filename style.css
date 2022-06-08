@@ -1,0 +1,50 @@
+* {
+  outline: 1px solid red;
+}
+
+.container {
+  position: relative;
+}
+
+.top_menu ul {
+  padding-inline-start: 0px;
+}
+
+.top_menu ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.container .banner {
+  height: 300px;
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.container .article {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container .article .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container .article .metadata {
+  font-size: 12px;
+}
+
+.container .article .content {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.container .footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
