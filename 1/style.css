@@ -1,9 +1,12 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .container {
   position: relative;
+  width: 800px;
+  margin: auto;
+  border: 1px solid;
 }
 
 .top_menu ul {
@@ -47,4 +50,9 @@
   color: white;
   text-align: center;
   padding: 15px 0;
+}
+
+.container .header, .container .top_menu, .article {
+  margin-left: 20px;
+  margin-right: 20px;
 }
